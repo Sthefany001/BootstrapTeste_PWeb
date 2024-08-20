@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+}
+
+#todo{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.centro1{
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    margin: 5%;
+}
+
+.centro2{
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    margin: 5%;
+}
+
+.centro3{
+    width: 25%;
+    background-color: white;
+    padding: 10px;
+    margin: 5%;
+}
+
+@media screen and (max-width: 500px){
+    #todo{
+        display: block; /*ficar embaixo*/
+    }
+}
+
+@media screen and (max-width: 500px){
+    #todo{
+        display: block;
+        background-color: aqua;
+    }
+}
