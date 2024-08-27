@@ -1,3 +1,36 @@
-.cor{
-    color:aquamarine;
+header{
+    background-color: rgb(185, 215, 233);
+    position: sticky; /*sticky = nao fica sobrebosta e vai rolando junto*/
+    top: 0; /*quando chegar no topo, para*/
+    /*absolute = ficar em cima de outros elementos (ex: texto em cima de imagem) fixed = continua no mesmo lugar, mas em cima dos outros ainda*/
+    width: 100%;
+}
+
+.topo{
+    display: flex; /*div um do lado do outro*/
+    align-items: center; /*alinhando itens no centro em posição vertical*/
+}
+
+.logoFornecedor{
+    width: 70px;
+    height: auto;
+}
+
+.opcoes{
+    margin-left: auto; /*deixar o div longe*/
+}
+
+.opcoes ul{
+    list-style: none; /*tirando o ponto*/
+}
+
+.opcoes ul li{
+    display: inline; /*deixar na mesma linha*/
+    font-size: 1.3em; /*tamanho fonte*/
+    padding: 15px; /*espaço interno*/
+}
+
+.opcoes ul li a{
+    text-decoration: none;
+    color: white;
 }
